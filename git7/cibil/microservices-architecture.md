@@ -1,0 +1,60 @@
+# Microservices Architecture Guide
+
+## 🏗️ Architecture Overview
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   API Gateway   │    │ Service Discovery│    │ Config Server   │
+│  (Spring Cloud  │    │    (Eureka)      │    │   (Spring      │
+│     Gateway)    │    │                  │    │   Config)      │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+         │                       │                       │
+         └───────────────────────┼───────────────────────┘
+                                 │
+    ┌─────────────────────────────────────────────────────────┐
+    │                    Microservices                       │
+    │  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐      │
+    │  │   User      │ │   Product   │ │   Order     │      │
+    │  │  Service    │ │  Service    │ │  Service    │      │
+    │  └─────────────┘ └─────────────┘ └─────────────┘      │
+    │  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐      │
+    │  │  Payment    │ │ Notification│ │   Inventory │      │
+    │  │  Service    │ │  Service    │ │  Service    │      │
+    │  └─────────────┘ └─────────────┘ └─────────────┘      │
+    └─────────────────────────────────────────────────────────┘
+                                 │
+                    ┌─────────────────┐
+                    │   Databases     │
+                    │ (MySQL, MongoDB, │
+                    │   PostgreSQL)   │
+                    └─────────────────┘
+```
+
+## 🔧 Key Technologies
+
+### 1. **Spring Boot** - Microservice Framework
+### 2. **Spring Cloud** - Microservices Tools
+### 3. **Eureka** - Service Discovery
+### 4. **Spring Cloud Gateway** - API Gateway
+### 5. **Spring Cloud Config** - Configuration Management
+### 6. **Feign Client** - Service Communication
+### 7. **Ribbon** - Load Balancing
+### 8. **Hystrix** - Circuit Breaker
+### 9. **Zipkin** - Distributed Tracing
+### 10. **Docker** - Containerization
+
+## 📋 Project Structure
+
+```
+microservices-project/
+├── api-gateway/
+├── service-discovery/
+├── config-server/
+├── user-service/
+├── product-service/
+├── order-service/
+├── payment-service/
+├── notification-service/
+├── inventory-service/
+└── docker-compose.yml
+```

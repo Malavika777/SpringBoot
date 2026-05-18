@@ -1,0 +1,162 @@
+[
+  {
+    "aadhaarNo": "1234-5678-9012",
+    "name": "Rahul Sharma",
+    "gender": "Male",
+    "dob": "1999-05-14",
+    "mobile": "+91-9876543210",
+    "email": "rahul.sharma@example.com",
+    "address": {
+      "houseNo": "42B",
+      "addressLine1": "Near City Park",
+      "addressLine2": "Shivaji Nagar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pinCode": "411016"
+    }
+  },
+  {
+    "aadhaarNo": "2345-6789-0123",
+    "name": "Ananya Verma",
+    "gender": "Female",
+    "dob": "2001-08-22",
+    "mobile": "+91-9123456780",
+    "email": "ananya.verma@example.com",
+    "address": {
+      "houseNo": "7A",
+      "addressLine1": "Green Apartments",
+      "addressLine2": "Sector 15",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pinCode": "201301"
+    }
+  },
+  {
+    "aadhaarNo": "3456-7890-1234",
+    "name": "Amit Kumar",
+    "gender": "Male",
+    "dob": "1995-12-03",
+    "mobile": "+91-9988776655",
+    "email": "amit.kumar@example.com",
+    "address": {
+      "houseNo": "112",
+      "addressLine1": "MG Road",
+      "addressLine2": "Opposite Metro Station",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pinCode": "560001"
+    }
+  },
+  {
+    "aadhaarNo": "4567-8901-2345",
+    "name": "Sneha Patil",
+    "gender": "Female",
+    "dob": "1998-04-11",
+    "mobile": "+91-9812345678",
+    "email": "sneha.patil@example.com",
+    "address": {
+      "houseNo": "56",
+      "addressLine1": "Lake View Colony",
+      "addressLine2": "Baner",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pinCode": "411045"
+    }
+  },
+  {
+    "aadhaarNo": "5678-9012-3456",
+    "name": "Arjun Reddy",
+    "gender": "Male",
+    "dob": "1997-11-19",
+    "mobile": "+91-9700012345",
+    "email": "arjun.reddy@example.com",
+    "address": {
+      "houseNo": "89C",
+      "addressLine1": "High Street",
+      "addressLine2": "Banjara Hills",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pinCode": "500034"
+    }
+  },
+  {
+    "aadhaarNo": "6789-0123-4567",
+    "name": "Meera Iyer",
+    "gender": "Female",
+    "dob": "2000-02-28",
+    "mobile": "+91-9445566778",
+    "email": "meera.iyer@example.com",
+    "address": {
+      "houseNo": "24",
+      "addressLine1": "Palm Residency",
+      "addressLine2": "Anna Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pinCode": "600040"
+    }
+  },
+  {
+    "aadhaarNo": "7890-1234-5678",
+    "name": "Rohan Mehta",
+    "gender": "Male",
+    "dob": "1996-09-10",
+    "mobile": "+91-9334455667",
+    "email": "rohan.mehta@example.com",
+    "address": {
+      "houseNo": "15D",
+      "addressLine1": "Elite Tower",
+      "addressLine2": "Park Street",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pinCode": "700016"
+    }
+  },
+  {
+    "aadhaarNo": "8901-2345-6789",
+    "name": "Priya Singh",
+    "gender": "Female",
+    "dob": "1994-06-07",
+    "mobile": "+91-9556677889",
+    "email": "priya.singh@example.com",
+    "address": {
+      "houseNo": "9",
+      "addressLine1": "Rose Villa",
+      "addressLine2": "Gomti Nagar",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "pinCode": "226010"
+    }
+  },
+  {
+    "aadhaarNo": "9012-3456-7890",
+    "name": "Karthik Nair",
+    "gender": "Male",
+    "dob": "1993-03-25",
+    "mobile": "+91-9447788990",
+    "email": "karthik.nair@example.com",
+    "address": {
+      "houseNo": "77",
+      "addressLine1": "Sunset Apartments",
+      "addressLine2": "Marine Drive",
+      "city": "Kochi",
+      "state": "Kerala",
+      "pinCode": "682001"
+    }
+  },
+  {
+    "aadhaarNo": "0123-4567-8901",
+    "name": "Nisha Gupta",
+    "gender": "Female",
+    "dob": "2002-01-15",
+    "mobile": "+91-9871122334",
+    "email": "nisha.gupta@example.com",
+    "address": {
+      "houseNo": "63",
+      "addressLine1": "Pearl Residency",
+      "addressLine2": "Civil Lines",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pinCode": "110054"
+    }
+  }
+]

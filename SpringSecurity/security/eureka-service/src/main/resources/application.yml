@@ -1,0 +1,26 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-service
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # Eureka server doesn't need to register with itself
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # Enable self-preservation mode (default: true)
+    enable-self-preservation: true
+    # Eviction scan interval in milliseconds (default: 60000)
+    eviction-interval-timer-in-ms: 10000
+
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.cloud: DEBUG
